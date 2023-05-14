@@ -12,6 +12,8 @@ namespace TravelManagement.Models
         [RegularExpression("^[a-zA-Z ]+$")]
         [StringLength(50)]
         public string AirlineName { get; set; }
+
+
         //[ForeignKey("Flight")]
         [RegularExpression("^[a-zA-Z0-9 ]+$")]
         [StringLength(10)]
