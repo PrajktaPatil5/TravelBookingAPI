@@ -9,8 +9,6 @@ namespace TravelManagement.Repository
         public UserRepository(ApplicationDbContext _db) : base(_db)
         {
             db = _db;
-
-
         }
 
 
